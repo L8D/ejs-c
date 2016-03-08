@@ -1,0 +1,31 @@
+{
+  "name": "ejs-c",
+  "version": "0.0.0",
+  "description": "Command line utility for compiling EJS templates",
+  "main": "index.js",
+  "bin": {
+    "ejs-c": "bin/ejs-c.js"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/L8D/ejs-c.git"
+  },
+  "keywords": [],
+  "author": "Tenor Biel <tenorbiel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/L8D/ejs-c/issues"
+  },
+  "homepage": "https://github.com/L8D/ejs-c",
+  "devDependencies": {
+    "standard": "^6.0.7"
+  },
+  "dependencies": {
+    "bl": "^1.1.2",
+    "commander": "^2.9.0",
+    "ejs": "^2.0.0"
+  }
+}
